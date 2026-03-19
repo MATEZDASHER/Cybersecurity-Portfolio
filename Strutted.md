@@ -1,4 +1,4 @@
-![[Pasted image 20251227193318.png]]
+![](Pasted%20image%2020251227193318.png)
 primero hacemos mkt en el directorio que queramos que se creen las carpetas necesarias para la auditoria
 
 
@@ -149,7 +149,7 @@ sudo /usr/sbin/tcpdump -ln -i lo -w /dev/null -W 1 -G 1 -z /tmp/pe.sh -Z root
 - `-z /tmp/pe.sh` → **ejecuta ese script al rotar** (postrotate hook)
 - Como tcpdump corre como **root**, el script se ejecuta como root
 
-/tmp/rootbash -p -> obetenemos la shell de root manteniedo sus privilegios
+/tmp/rootbash -p -> ejecutamos la shell de root manteniendo sus privilegios
 
 nos movemos al directorio root y veremos la flag 
 ![[Pasted image 20251229160947.png]]
